@@ -301,6 +301,7 @@
 }
 
 .back_content p {
+    display:flex;
     text-align: left;
     padding: 10px 40px;
 }
@@ -322,6 +323,9 @@
     display: inline-block;
     margin-top: 20px;
     line-height: 28px;
+}
+.fish{
+    line-height: 16px;
 }
 
 .card:hover > .front {
@@ -671,7 +675,7 @@
 }
     
 .back_content p {
-    padding: 10px 20px;
+    padding: 16px 20px;
 }
 
 #work .work_box .left_box {
@@ -713,7 +717,7 @@
     height: 350px;
 }
 .back_content p {
-    padding: 20px 0;
+    padding: 10px 20px;
     text-align: center;
 }
 
@@ -885,9 +889,8 @@
 
 .back_content p {
     text-align: left;
-    padding: 10px 70px;
+    padding: 7px 20px;
 }
-
 .back_content span {
     display: inline-block;
     font-weight: 700;
@@ -895,6 +898,7 @@
 }
 
 .back_content .p_dec {
+    padding-left: 140px;
     position: absolute;
     right: 75px;
     top: -50px;
@@ -1051,9 +1055,6 @@
     top: -80px;
 }
 
-.back_content p {
-    padding: 10px 40px;
-}
 
 .back_content span {
     padding-right: 10px;
